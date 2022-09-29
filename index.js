@@ -90,7 +90,7 @@ JunitXrayReporter = function(newman, reporterOptions) {
             // Timestamp
             testsuite.att("timestamp", date);
 
-            // Set each execution as a single test case
+            // Set each execution as a single tst case
             var testcase = testsuite.ele("testcase");
 
             // Classname
